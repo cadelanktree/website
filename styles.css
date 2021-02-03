@@ -1,0 +1,55 @@
+:root {
+--foreground: #111;
+--background: #f8f8f8;
+}
+@media (prefers-color-scheme: dark) {
+	:root {
+		--foreground: #f8f8f8;
+		--background: #111;
+	}
+}
+body {
+font-family: helvetica, sans-serif;
+color: var(--foreground);
+background: var(--background);
+}
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+  }
+/* Twitter */
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+.fa-google {
+	background: #dd4b39;
+	color: white;
+}
+.fa-youtube {
+	background: #bb0000;
+	color: white;
+}
+#copyright {
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+}
+section {
+	display: block;
+}
